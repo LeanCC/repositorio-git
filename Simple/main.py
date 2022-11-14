@@ -11,12 +11,10 @@ def random_list():
   while i <= 10:
     dictionary = {}
     id = i 
-    num_random = random.randint(1,100)
-    dictionary[id] = num_random
+    edad = random.randint(1,100)
+    dictionary['id'] = id
+    dictionary['edad'] = edad
     list.append(dictionary)
     i += 1
 
   return list
-  
-print(random_list())
- 
