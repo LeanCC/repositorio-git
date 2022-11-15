@@ -67,3 +67,34 @@ def consecutive_horizont():
 
 consecutive_horizont()
 
+"""
+Crear función para buscar la secuencia de números de manera vertical
+
+"""
+
+def consecutive_vert():
+  if row1[0] == 1 and row2[0] == 2 and row3[0] == 3 and row4[0] == 4:
+    print('Posicion Incial: Fila 1,Elemento 1.\n'
+          'Posicion Final: Fila 4,Elemento 1\n') 
+  
+  elif row1[1] == 1 and row2[1] == 2 and row3[1] == 3 and row4[1] == 4:
+    print('Posicion Incial: Fila 1,Elemento 2.\n'
+          'Posicion Final: Fila 4,Elemento 2\n') 
+
+  elif row1[2] == 1 and row2[2] == 2 and row3[2] == 3 and row4[2] == 4:
+    print('Posicion Incial: Fila 1,Elemento 3.\n'
+          'Posicion Final: Fila 4,Elemento 3\n') 
+  elif row1[3] == 1 and row2[3] == 2 and row3[3] == 3 and row4[3] == 4:
+    print('Posicion Incial: Fila 1,Elemento 4.\n'
+          'Posicion Final: Fila 4,Elemento 4\n') 
+
+  elif row1[4] == 1 and row2[4] == 2 and row3[4] == 3 and row4[4] == 4:
+    print('Posicion Incial: Fila 1,Elemento 5.\n'
+          'Posicion Final: Fila 4,Elemento 5\n')
+  
+
+""" Ejecutamos la función"""
+
+consecutive_vert()
+
+
