@@ -2,19 +2,19 @@
 import random
 
 
-""" Definir la medida de la matriz"""
-rows = 5
-columns = 5
-
-n = [[random.randint(1,5) for i in range(rows)] for j in range(columns)]
-
-
 """ Creando la matriz """
+def creating_mtz(n):
+  matriz = []
 
-def matriz():
-  for f in range(rows):
-    for c in range(columns):
-      print(n[f][c],end=' ')
-    print()
+  for r in range(n):
+    row = []
 
-matriz()
+    for c in range(n):
+      row.append(random.randint(1,5))
+
+    matriz.append(row)
+
+  return matriz
+
+result = creating_mtz(5)
+
