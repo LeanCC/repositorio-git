@@ -18,3 +18,21 @@ def creating_mtz(n):
 
 result = creating_mtz(5)
 
+""" Mostrar la matriz(En linea) """
+print(result)
+print()
+
+""" Separar por lineas """
+row1 = result[0]
+row2 = result[1]
+row3 = result[2]
+row4 = result[3]
+row5 = result[4]
+
+
+""" Mostrar la matriz en un formato 5x5"""
+for i in result:
+  print(i)
+
+print()
+
